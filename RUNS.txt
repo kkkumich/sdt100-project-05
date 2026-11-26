@@ -1,0 +1,41 @@
+===== part1_methods.Main.txt =====
+COMMAND: java -cp build part1_methods.Main
+INPUT (demo data):
+
+OUTPUT:
+Welcome!
+Demo (20)
+Adult: true
+sum=7, area=10.0
+
+
+===== part2_decomposition.Main.txt =====
+COMMAND: java -cp build part2_decomposition.Main
+INPUT (demo data):
+Demo
+15
+detective
+n
+
+OUTPUT:
+Name: Age (0-120): Genre (detective/fantasy/non-fiction/other): Demo, try reading: The Westing Game
+Continue? (Y/N): 
+
+===== part3_calculator.Main.txt =====
+COMMAND: java -cp build part3_calculator.Main
+INPUT (demo data):
+8
+/
+0
++
+2
+c
+*
+3
+x
+
+OUTPUT:
+First operand: Operation (+ - * /): Second operand: Cannot divide by zero
+Operation (+ - * /): Second operand: 8.0000 + 2.0000 = 10.0000
+C: continue with result; N: new calculation; anything else: quit: Operation (+ - * /): Second operand: 10.0000 * 3.0000 = 30.0000
+C: continue with result; N: new calculation; anything else: quit: 
